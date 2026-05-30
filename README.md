@@ -37,13 +37,11 @@ Percepción → Evaluación de Reglas → Acción
 Cada 10 ciclos (aproximadamente cada 2.5 minutos):
 
 - Elimina los objetos tirados en el suelo.
-- Limpia el clima del servidor.
 
 **Comandos utilizados:**
 
 ```mcfunction
 kill @e[type=item]
-weather clear
 ```
 
 ### 2. Bienvenida con Memoria
